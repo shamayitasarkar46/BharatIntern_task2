@@ -1,0 +1,90 @@
+.home{
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)),url('https://wallpapercave.com/wp/wp6946084.jpg');
+    background-size: cover;
+    background-position: no-repeat;
+    height: 100vh;
+}
+.navbar .logo{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.logo span{
+    color:whitesmoke;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar li{
+    list-style-type: none;
+    display:inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 100px;
+    padding: 0px 15px;
+    border: 1.5px solid transparent;
+}
+.navbar li a:hover{
+    border-bottom: 2px solid #fff;
+    transition: .5s all ease-in;
+}
+input{
+    width: 20%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: #fff;
+    font-size: 22px;
+}
+input::placeholder{
+    font-size: 16px;
+}
+button{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    background: #cda285;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+.container{
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.container span{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.container p{
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+.social-media i{
+    color: #0e76a8;
+}
+footer{ 
+    text-align: center;
+    background: rgb(30, 33, 37);
+    padding: 17px 24px;
+    color: #FFFFFFBF;
+    font-size: 20px;
+}
+footer  .name{
+    color: #ed6681;
+    cursor: pointer;
+}
+footer .year{
+    color: #f1abb9;
+}
+footer i{
+    color: #fff;
+}

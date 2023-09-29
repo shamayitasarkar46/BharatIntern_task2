@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Temperature converter</title>
+    
+</head>
+<body>
+<div class="home">
+    <div class="navbar">
+            <div class="logo">
+                Temperature  &nbsp;<span>Converter</span>
+            </div>
+            <ul class="menu">
+                <li><a href="#container" class="menu-btn">Converter </a></li>
+                <li><a href="#contacts" class="menu-btn">Contact </a></li>
+            </ul>       
+    </div>
+        <div class="container" id="container">       
+            <input type="number" class="celsius" id="celsius" placeholder="Enter celsius temperature"> <span class="icon">&#8451</span>
+            <button id="celsiusToF&K">Convert</button>
+            <p id="resultC"></p>        
+            <input type="number" id="fahrenheit" placeholder="Enter fahrenheit temperature"><span class="icon">&#8457</span>
+            <button id="fahrenheitToC&K">Convert</button>
+            <p id="resultF"></p>       
+            <input type="number" id="kelvin" placeholder="Enter kelvin temperature"> <span class="icon">&#8490</span>
+            <button id="kelvinToC&F">Convert</button>
+            <p id="resultK"></p>
+        </div>
+    </div>
+    <footer id="contacts">
+             <div class="social-media">
+                <p>Connect with me on <a href="https://www.linkedin.com/in/shamayita-sarkar-81394a27b/">  <i class="fa-brands fa-linkedin eachicon"></i> </a>
+                </p> 
+            </div>
+        Created by <span class="name">Shamayita Sarkar</span> | <i class="fas fa-copyright"></i> <span class="year">2023</span> All rights reserved.</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
